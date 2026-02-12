@@ -1,0 +1,10 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: myapp2
+  description: Application qui consomme l'API myapp
+spec:
+  lifecycle: production
+  owner: user:default/mehdi
+  consumesApis:
+    - myapp-api
