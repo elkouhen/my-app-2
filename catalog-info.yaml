@@ -4,6 +4,7 @@ metadata:
   name: myapp2
   description: Application qui consomme l'API myapp
 spec:
+  type: service
   lifecycle: production
   owner: user:default/mehdi
   consumesApis:
