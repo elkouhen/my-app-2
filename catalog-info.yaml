@@ -10,5 +10,6 @@ spec:
   type: service
   lifecycle: experimental
   owner: group:AL
+  system: pocs
   consumesApis:
     - myapp-api
