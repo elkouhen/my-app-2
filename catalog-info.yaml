@@ -1,11 +1,11 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: myapp2
+  name: my-app-2
   description: Application qui consomme l'API myapp (/helloworld)
 spec:
   type: service
   lifecycle: experimental
-  owner: user:guest
+  owner: group:ACC
   consumesApis:
     - myapp-api
