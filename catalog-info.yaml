@@ -1,7 +1,7 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: my-app-2
+  name: myapp-2
   description: Application qui consomme l'API myapp (/helloworld)
 spec:
   type: service
